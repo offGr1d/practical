@@ -1,0 +1,12 @@
+import java.time.LocalDate;
+
+public class TestAnimal {
+    public static void main(String[] args) {
+        // Create Animal objects
+        Animal animal1 = new Animal();
+        animal1.displayDetails();
+
+        Animal animal2 = new Animal("Leo", "Lion", LocalDate.of(2015, 8, 10));
+        animal2.displayDetails();
+    }
+}
